@@ -10,7 +10,7 @@
    
 2. Navigate to the cloned folder:
     ```bash
-    cd poc-deepsort
+    cd POC-DeepSORT
     ```
 
 3. Create a virtual environment (Recommended to avoid conflicts):
