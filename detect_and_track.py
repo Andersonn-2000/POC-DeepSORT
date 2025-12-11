@@ -54,7 +54,7 @@ def draw_boxes(img, bbox, identities=None, categories=None, names=None, save_wit
 def detect():
     source, weights, view_img, save_txt, imgsz, trace, colored_trk, save_bbox_dim, save_with_object_id= opt.source, opt.weights, opt.view_img, opt.save_txt, opt.img_size, not opt.no_trace, opt.colored_trk, opt.save_bbox_dim, opt.save_with_object_id
     if source is None:
-        print("No source provided, using demo.mp4 from yolov7-object-tracking assets...")
+        print("⚠️ No source provided, using demo.mp4 from yolov7-object-tracking assets...")
         download_demo_video()
         source="assets/demo.mp4"
     save_img = not opt.nosave and not source.endswith('.txt')  # save inference images
