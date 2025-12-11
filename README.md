@@ -5,12 +5,12 @@
 1. Clone the repository:
    
     ```bash
-    git clone https://github.com/RizwanMunawar/yolov7-object-tracking.git
+    git clone git@github.com:Andersonn-2000/POC-DeepSORT.git
     ```
    
 2. Navigate to the cloned folder:
     ```bash
-    cd yolov7-object-tracking
+    cd poc-deepsort
     ```
 
 3. Create a virtual environment (Recommended to avoid conflicts):
