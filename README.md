@@ -54,7 +54,7 @@
       ```bash
       python detect.py --weights yolov7.pt
   
-      # If you want to use your own videos.
+      # If you want to use your own videos
       python detect.py --weights yolov7.pt --source "your video.mp4"
       
       # For Inference with YOLOv8
@@ -67,21 +67,6 @@
       
       # If you want to use your own videos.
       python detect_and_track.py --weights yolov7.pt --source "your video.mp4"
-      ```
-
-    - **Webcam**:
-      ```bash
-      python detect_and_track.py --weights yolov7.pt --source 0
-      ```
-
-    - **External Camera**:
-      ```bash
-      python detect_and_track.py --weights yolov7.pt --source 1
-      ```
-
-    - **IP Camera Stream**:
-      ```bash
-      python detect_and_track.py --source "your IP Camera Stream URL" --device 0
       ```
 
     - **Specific class tracking (e.g., person)**:
